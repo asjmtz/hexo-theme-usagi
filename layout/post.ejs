@@ -25,5 +25,4 @@
 	<% site.posts.each(function(post,i){%>
 		dateMap.push(<%- post.date.format('YYYYMMDD')%>)
 	<% }) %>
-	console.log('site.posts', dateMap)
 </script>
